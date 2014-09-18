@@ -134,6 +134,10 @@ a:active {
     margin-top: 0;
 }
 
+.iphone-footer-banner {
+    display: none;
+}
+
 footer {
     background-color: #888;
     color: white;
@@ -247,6 +251,16 @@ footer a:active
         -o-column-gap: 2em;
         -ms-column-gap: 2em;
         column-gap: 2em;
+    }
+
+    .iphone-footer-banner {
+        display: block;
+        text-align: center;
+    }
+
+    .iphone-footer-banner .store {
+        width: 170px;
+        margin-top: 20px;
     }
 
 
