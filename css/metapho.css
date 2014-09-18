@@ -1,0 +1,253 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #FF7A6D;
+}
+
+.center {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.appinfo {
+    background-color: #222334;
+    padding-top: 70px;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.appinfo .iconandname {
+    text-align: center;
+}
+
+.appinfo .iconandname h1 {
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+.appinfo .iconandname h3 {
+    color: #A7A9AB;
+    font-weight: normal;
+    margin-top: 6px;
+}
+
+.appinfo .iconandname a:link,
+.appinfo .iconandname a:visited,
+.appinfo .iconandname a:hover,
+.appinfo .iconandname a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.appinfo .iconandname .icon {
+    width: 250px;
+}
+
+.appinfo .iconandname .store {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.appinfo .video {
+    background-color: #eee;
+    min-height: 500px;
+}
+
+.hero {
+    background-color: #ddd;
+    padding: 15px 0;
+    text-align: center;
+    font-style: italic;
+    color: #222334;
+}
+
+.hero h2 {
+    font-size: 1.2em;
+}
+
+.features {
+    color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features article {
+    margin-top: 40px;
+}
+
+.features img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.features .f-img {
+    width: 33.33%;
+    padding: 30px 20px;
+    float: left;
+}
+
+.features .f-img img {
+    border: 1px solid #bbb;
+}
+
+.features .f-info {
+    width: 66.66%;
+    padding: 30px 30px;
+    padding-top: 60px;
+    float: left;
+}
+
+.features .f-info h3 {
+    color: #FF7A6D;
+}
+
+.features .f-img-right .f-img {
+    float: right;
+}
+
+.features .attribution {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    -o-column-gap: 2em;
+    -ms-column-gap: 2em;
+    column-gap: 2em;
+}
+
+.features .attribution p {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #888;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+    .features {
+        max-width: 700px;
+    }
+
+    .features .f-img {
+        padding: 30px 20px 30px 30px;
+    }
+
+    .features .f-info {
+        padding: 30px 30px 30px 20px;
+        padding-top: 60px;
+    }
+
+    .features .f-img-right .f-img {
+        padding: 30px 30px 30px 20px;
+    }
+
+    .features .f-img-right .f-info {
+        padding: 30px 20px 30px 30px;
+        padding-top: 60px;
+    }
+}    
+
+@media screen and (max-width: 610px) {
+    .appinfo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .appinfo .iconandname .icon {
+       width: 180px;
+    }
+    .appinfo .iconandname .store {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .hero h2 {
+       font-size: 1.0em;
+    }
+
+    .features article {
+        margin-top: 50px;
+    }
+
+    .features .f-img {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .features .f-info {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .features .f-img-right .f-img {
+        float: none;
+    }
+
+    .features .f-img-right .f-img {
+        padding: 0;
+        float: none;
+    }
+
+    .features .f-img-right .f-info {
+        padding: 0;
+        float: none;
+    }
+
+    .feature2 {
+        background-color: #eee;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .features .attribution{
+        width: 90%;
+        margin: 0 auto;
+        /*background-color: red;*/
+        word-wrap: break-word;
+    }
+
+    .features .attribution {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+        -webkit-column-gap: 2em;
+        -moz-column-gap: 2em;
+        -o-column-gap: 2em;
+        -ms-column-gap: 2em;
+        column-gap: 2em;
+    }
+
+
+}
