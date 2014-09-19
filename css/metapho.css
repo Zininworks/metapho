@@ -145,6 +145,22 @@ a:active {
     margin-right: 15px; 
 } 
 
+.presskit {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.presskit p a{
+    background-color: #FF7A6D;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 60px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 .iphone-footer-banner {
     display: none;
 }
@@ -270,7 +286,7 @@ footer a:active
     }
 
     .iphone-footer-banner {
-        display: block;
+        /*display: block;*/
         text-align: center;
     }
 
