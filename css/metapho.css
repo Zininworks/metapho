@@ -208,6 +208,11 @@ footer a:active
     .appinfo .iconandname {
         margin-left: 60px;
     }
+	.appinfo .novideo {
+		margin-left: 0;
+	}
+
+	
 
     .appinfo .video {
         margin-left: 70px;
@@ -242,7 +247,7 @@ footer a:active
         width: 100%;
         margin-left: 0;
     }
-
+	
     .appinfo .video {
         margin-left: 0;
         float: none;
