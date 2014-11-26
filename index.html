@@ -4,21 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-itunes-app" content="app-id=914457352, affiliate-data=at=11lIqv&amp;ct=mbanner">
-    <title>Metapho: Manage your photo data</title>
+    <title>Metapho: iOS 8 Photo Metadata Manager</title>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/metapho.css">
+    
+    
+    <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("8f7bb71a25d85b7302969ab12c42783a");</script><!-- end Mixpanel -->
+
+
 </head>
 
-<body>
+<body onload="mixpanel.track('page viewed', { 'page name' : document.title, 'url' : window.location.pathname });">
     <header class="appinfo">
         <div class="center clearfix">
             <div class="iconandname">
-                <p><a href="/"><img src="/img/metapho.png" class="icon"></a></p>
-                <h1><a href="/">Metapho</a></h1>
-                <h3>Manage your photo data</h3>
-                <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/store.png" class="store"></a></p>
+                <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/metapho.jpg" class="icon"></a></p>
+                <h1>Metapho</h1>
+                <h3>Manage Photo Metadata</h3>
+                <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/appStore.svg" class="store"></a></p>
             </div>
 
             <div class="video">
@@ -29,53 +36,62 @@
 
     <section class="hero">
         <article class="center">
-            <h2>Your photo knows where you’ve been, what your camera is and ...</h2>
+            <h2>“Must-have if you want to share photos without metadata.”</h2>
+            <h3>– Federico Viticci, <a href="http://www.macstories.net/roundups/ios-8-extensions-and-widgets-im-trying-this-weekend/">MacStroies.net</a></h3>
         </article>
     </section>
 
     <section class="features">
         <article class="f-img-left clearfix">
             <div class="f-img">
-                <img src="/img/feature1.png" class="pure-img">
+                <img src="/img/feature1.jpg" class="pure-img">
             </div>
             <div class="f-info">
-                <h3>Get your photo data</h3>
-                <p>Metapho is a simple and clean viewer for photo metadata such as file size, camera model, ISO, shutter speed, GPS coordinates and more.</p>
+                <h3>Check your photo’s metadata.</h3>
+                <p>Metapho is a simple and clean viewer for photo metadata such as file size, camera model, ISO, shutter speed, GPS location and more.</p>
             </div>
         </article>
 
         <article class="feature2 f-img-right clearfix">
             <div class="f-img">
-                <img src="/img/feature2.png" class="pure-img">
+                <img src="/img/feature2.jpg" class="pure-img">
             </div>
             <div class="f-info">
-                <h3>Control your privacy</h3>
-                <p>If you care about privacy before sharing your photo to public, erasing all metadata from a photo is easily done by Remove Metadata feature. It’s non–destructive operation so that you can restore metadata later.</p>
+                <h3>Control your privacy.</h3>
+                <p>If you care about privacy when you’re sharing a photo to public, erasing personal data from the photo is easy with Remove Metadata feature. Since it’s a non–destructive operation, restoring is also simple.</p>
             </div>
         </article>
 
         <article class="f-img-left clearfix">
             <div class="f-img">
-                <img src="/img/feature32.png" class="pure-img">
+                <img src="/img/feature3.jpg" class="pure-img">
             </div>
             <div class="f-info">
-                <h3>Use directly in Photos Library</h3>
-                <p>The new iOS 8 app extension let you check and remove metadata right inside iOS built–in Photos app.</p>
+                <h3>Use anywhere with iOS share sheet.</h3>
+                <p>Metapho Action let you check metadata and remove it before sharing, anywhere with iOS share sheet. And Photo Edit extension let you check and remove metadata right in the Photos app.</p>
             </div>
         </article>
     </section>
-
+	
+    <section class="iphone-footer-banner">
+        <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/appStore.svg" class="store"></a></p>
+    </section>
+	
     <section class="presskit">
         <p><a href="https://www.dropbox.com/sh/zdtlt6upz1u39oh/AAAtylT_UTcadxvZDxGOYDkda?dl=0"><i class="fa fa-arrow-circle-o-down"></i> Download Press Kit</a></p>
     </section>
 
-    <section class="iphone-footer-banner">
-        <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/store.png" class="store"></a></p>
-    </section>
-
     <footer>
         <p class="center">&copy; <a href="http://zininworks.com">zininworks</a> / <a href="/support">support</a> / <a href="/attribution">screenshot&nbsp;attribution</a></p>
+        <div class="center trademark">
+	        <p>Apple, the Apple logo, iPad, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries.<br />App Store is a service mark of Apple Inc.</p>
+        </div>
     </footer>
-
+    
+	<script type="text/javascript">
+	    mixpanel.track_links(".iconandname a", "click appstore");
+	    mixpanel.track_links(".iphone-footer-banner a", "click footer appstore");
+	    mixpanel.track_links(".presskit a", "click presskit");
+	</script>
 </body>
 </html>
