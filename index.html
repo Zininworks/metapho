@@ -9,16 +9,9 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/metapho.css">
-    
-    
-    <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-mixpanel.init("8f7bb71a25d85b7302969ab12c42783a");</script><!-- end Mixpanel -->
-
-
 </head>
 
-<body onload="mixpanel.track('page viewed', { 'page name' : document.title, 'url' : window.location.pathname });">
+<body>
     <header class="appinfo">
         <div class="center clearfix">
             <div class="iconandname">
@@ -26,10 +19,6 @@ mixpanel.init("8f7bb71a25d85b7302969ab12c42783a");</script><!-- end Mixpanel -->
                 <h1>Metapho</h1>
                 <h3>Manage Photo Metadata</h3>
                 <p><a href="https://itunes.apple.com/us/app/metapho-manage-photo-metadata/id914457352?ls=1&mt=8&at=11lIqv&ct=metaphomainbanner"><img src="/img/appStore.svg" class="store"></a></p>
-            </div>
-
-            <div class="video">
-                <iframe src="//www.youtube-nocookie.com/embed/379ZkBjFDOY" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </header>
@@ -86,12 +75,6 @@ mixpanel.init("8f7bb71a25d85b7302969ab12c42783a");</script><!-- end Mixpanel -->
         <div class="center trademark">
 	        <p>Apple, the Apple logo, iPad, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries.<br />App Store is a service mark of Apple Inc.</p>
         </div>
-    </footer>
-    
-	<script type="text/javascript">
-	    mixpanel.track_links(".iconandname a", "click appstore");
-	    mixpanel.track_links(".iphone-footer-banner a", "click footer appstore");
-	    mixpanel.track_links(".presskit a", "click presskit");
-	</script>
+    </footer>    
 </body>
 </html>
