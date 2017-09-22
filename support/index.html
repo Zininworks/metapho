@@ -31,9 +31,9 @@
 	    <article>
 		    <h1>FAQ</h1>
 		    
-			<h3>How can I unlock premium features?</h3>
-			<p>When you’re seeing metadata of a photo, tapping a button with lock icon brings up in–app store. Single “Unlock Everything” in–app purchase unlocks everything.</p>
-
+		    <h3>Does Metapho re–compress images?</h3>
+		    <p>Yes and no. This is how iOS Photos framework works. When you edit a photo, regardless third–party or Photos, iOS does not touch the original file. The app has to ask iOS to store a new, edited JPEG in addition to original one. The new file must have 1 orientation (normal, top-left). In this process, for non–1 oriented images are rotated to 1 orientation and re–compressed. Since re–rendering is inevitable for rotated images, Metapho uses very low compression rate for minimum quality loss. And 1 oriented images are not re–compressed.</p>
+		    
 			<h3>Where can I find Metapho Action?</h3>
 			<p>When you’re sharing an image via iOS share sheet, the bottom row of icons is where action extensions are. Tap the right most “More” icon and turn on Metapho.</p>
 
@@ -41,10 +41,7 @@
 			<p>Tap Safe Share button—share button with dotted line, then select “Share without Metadata” to show iOS share sheet, and then tap “Save Image” icon from bottom row. A new image without metadata will be added to your Photos Library.</p>
 
 			<h3>Does Metapho support iCloud?</h3>
-			<p>Metapho is built upon the new Photos framework, works great with <a href="https://www.apple.com/icloud/photos/">iCloud Photo Library</a>(iCPL). Every changes sync to iCPL and will be available on devices with iCPL enabled.</p>
-
-			<h3>Does Metapho support dynamic type?</h3>
-			<p>Ok. Not a FAQ. Sadly this question is never asked. But yes. It took meticulous effort to make the app look good in any text size.</p>
+			<p>Metapho is built upon the Photos framework, works great with <a href="https://www.apple.com/icloud/photos/">iCloud Photo Library</a>.</p>
 			
 	    </article>
 	    
